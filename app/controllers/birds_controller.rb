@@ -3,4 +3,4 @@ class BirdsController < ApplicationController
     @birds = Bird.all
     render plain: "Hello #{@birds[3].name}"
   end
-end
+ends
